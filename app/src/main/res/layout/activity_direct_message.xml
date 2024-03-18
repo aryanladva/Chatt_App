@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDivider"
+    android:gravity="center"
+    tools:context=".Direct_Message">
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Message"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText1"
+        android:layout_marginStart="16dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Mobile Number"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editText2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/edit_text_rounded_corner"
+        android:inputType="number"
+        android:layout_marginBottom="16dp"
+        android:hint="Enter Count"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:backgroundTint="@color/chat_color_sender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS MANUALLY"
+        android:layout_below="@id/editText3"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS"
+        android:backgroundTint="@color/chat_color_sender"
+        android:layout_below="@id/editText3"
+        android:layout_toEndOf="@id/button1"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WhatsApp"
+        android:backgroundTint="@color/chat_color_sender"
+        android:layout_below="@id/editText3"
+        android:layout_toEndOf="@id/button2"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"/>
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_alignStart="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="141dp"
+        android:backgroundTint="@color/chat_color_sender"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="139dp"
+        android:text="Choose" />
+
+
+
+</RelativeLayout>

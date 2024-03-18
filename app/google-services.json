@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "850625178467",
+    "firebase_url": "https://th-sem-project-b5814-default-rtdb.firebaseio.com",
+    "project_id": "th-sem-project-b5814",
+    "storage_bucket": "th-sem-project-b5814.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:850625178467:android:d146bf0c2afdb2db3b8156",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYwtN0ajfOPS305fmRBzC95hYpQpg-C4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

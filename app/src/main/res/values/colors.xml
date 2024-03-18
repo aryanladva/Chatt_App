@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Primery">#536DFE</color>
+    <color name="colorPrimeryDark">#1D3CEC</color>
+    <color name="colorAccrnt">#F44336</color>
+    <color name="colorTextPrimery">#212121</color>
+    <color name="colorTextSecondery">#757575</color>
+    <color name="colorDivider">#BDBDBD</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="chat_color_sender">#1E88E5</color>
+    <color name="chat_color_receiver">#7CB342</color>
+</resources>
